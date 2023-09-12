@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">OwnerDriverApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register User</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="no_maps">No Map Available</string>
+    <string name="home">Home</string>
+    <string name="account">Set Up Account</string>
+    <string name="connection_failed">"Connection failed"</string>
+    <string name="conversion_failed">"Data conversion failed"</string>
+    <string name="data_received">"Data received"</string>
+    <string name="no_response">"No response"</string>
+    <string name="cancel">"Task Cancelled"</string>
+    <string name="include_digits">"abcdefghijklmnopqrstuvwxyz1234567890-_"</string>
+
+    <string-array name="ride_type_name">
+        <item name="bee">Beetle</item>
+        <item name="cab">Cabrio</item>
+        <item name="cit">City Car</item>
+        <item name="min">Mini Van</item>
+        <item name="sed">Sedan</item>
+        <item name="spo">Sport Car</item>
+        <item name="suv">SUV</item>
+        <item name="tru">Truck</item>
+        <item name="van">Van</item>
+    </string-array>
+
+    <integer-array name="ride_type_img">
+        <item name="bee">@drawable/beetle</item>
+        <item name="cab">@drawable/cabrio</item>
+        <item name="cit">@drawable/citycar</item>
+        <item name="min">@drawable/minivan</item>
+        <item name="sed">@drawable/sedan</item>
+        <item name="spo">@drawable/sportcar</item>
+        <item name="suv">@drawable/suv</item>
+        <item name="tru">@drawable/truck</item>
+        <item name="van">@drawable/van</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.khanstech.ownerdriverapp.activity.LoginActivity"/>
+      <point      
+        x = "1768"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.khanstech.ownerdriverapp.activity.LoginActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.khanstech.ownerdriverapp.activity.RegisterActivity"/>
+      <point      
+        x = "1768"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.khanstech.ownerdriverapp.activity.RegisterActivity"/>
+      <point      
+        x = "500"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.khanstech.ownerdriverapp.activity.HomeActivity"/>
+      <point      
+        x = "1768"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.khanstech.ownerdriverapp.activity.HomeActivity"/>
+      <point      
+        x = "500"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.khanstech.ownerdriverapp.activity.ResetPassActivity"/>
+      <point      
+        x = "1768"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.khanstech.ownerdriverapp.activity.ResetPassActivity"/>
+      <point      
+        x = "500"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.khanstech.ownerdriverapp.activity.AccountActivity"/>
+      <point      
+        x = "1768"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.khanstech.ownerdriverapp.activity.AccountActivity"/>
+      <point      
+        x = "500"      
+        y = "5620"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

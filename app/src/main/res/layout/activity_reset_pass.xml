@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_forget_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.ForgetPassActivity">
+
+    <EditText
+        android:id="@+id/tv_forget_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_reg_pass"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_forget_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="resetPassword"
+        android:text="Reset Password"
+        android:layout_below="@+id/tv_forget_newpass"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/tv_forget_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/tv_forget_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+    <ImageButton
+        android:id="@+id/btn_forget_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/ic_action_visible"
+        android:contentDescription="Show Password"
+        android:onClick="showForgetPassword"
+        android:layout_alignTop="@+id/tv_forget_newpass"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
